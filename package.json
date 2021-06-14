@@ -1,0 +1,33 @@
+{
+  "name": "graphql-api",
+  "version": "1.0.0",
+  "description": "Graphql node js api with PostGreSql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "clean": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "clean": "^4.0.2",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.7.1",
+    "graphiql": "^1.4.2",
+    "graphql": "^14.7.0",
+    "lodash": "^4.17.21",
+    "pg": "^7.11.0",
+    "pg-promise": "^8.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "nodemon": "2.0.7",
+    "regenerator-runtime": "^0.13.7",
+    "rimraf": "^3.0.2"
+  }
+}
